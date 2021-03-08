@@ -1,0 +1,34 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Write your media queries here */
+
+/* for smartphone */
+@media screen and (max-width:480px) {
+    body {
+        color: rgb(255, 98, 0);
+    }
+}
+
+/* for tablet */
+@media screen and (min-width:481px) and (max-width:768px) {
+    body {
+        color: rgb(128, 0, 255);
+    }
+}
+
+/* for desktop */
+@media screen and (min-width:769px) {
+    body {
+        color: rgb(0, 156, 223);
+    }
+}
+
+
